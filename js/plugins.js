@@ -296,7 +296,7 @@ $(document).ready(function () {
     });
   }
   window.onload = function () {
-    wpgmappity_maps_loaded();
+    // wpgmappity_maps_loaded();
   };
 
   /* End */
