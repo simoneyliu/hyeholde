@@ -1420,7 +1420,7 @@ section.menu .title.first {
   margin-top: 130px;
 }
 
-section.menu .title:before {
+/* section.menu .title:before {
   content: url('../images/menu_title_line.png');
   margin-right: 20px;
 }
@@ -1428,7 +1428,7 @@ section.menu .title:before {
 section.menu .title:after {
   content: url('../images/menu_title_line.png');
   margin-left: 20px;
-}
+} */
 
 section.menu ul li {
   text-transform: uppercase;
@@ -2649,7 +2649,7 @@ img {
 
   .section .title {
     font-size: 30px;
-    line-height: 37px;
+    line-height: 45px;
     padding-top: 20px;
     margin-bottom: 15px;
   }

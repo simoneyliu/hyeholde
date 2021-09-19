@@ -234,7 +234,7 @@
       $('#owl-about').owlCarousel({
         navigation: false,
         pagination: false,
-        autoPlay: true,
+        autoPlay: false,
         slideSpeed: 300,
         paginationSpeed: 400,
         singleItem: true,
