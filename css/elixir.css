@@ -328,6 +328,10 @@ a:hover {
   border-color: #000;
 }
 
+.color-black {
+  color: black;
+}
+
 /* ==============================
    6. Inview Animations
    ============================== */
@@ -490,6 +494,10 @@ a:hover {
   line-height: 30px;
   padding: 0px;
   color: #fff;
+}
+
+.navbar-toggle.color-black {
+  color: black;
 }
 
 .navbar-toggle.menu {
