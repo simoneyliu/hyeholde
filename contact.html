@@ -144,7 +144,7 @@
               Phone: (412)-264-3116<br />Email: mail@hyeholde.com<br />Address: 1516 Coraopolis Heights Rd, Coraopolis, PA 15108
             </div>
           </div>
-          <form action="mail.php" method="post" id="contactform" class="contact-form">
+          <form method="post" id="contactform" class="contact-form">
             <div class="col-md-6 jt_col column_container">
               <input type="text" id="name" name="name" class="text name required" placeholder="Name" />
               <input type="email" id="email" name="email" class="tex email required" placeholder="Email" />
@@ -269,6 +269,28 @@
       (function ($) {
         $('.swipebox').swipebox();
       })(jQuery);
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('user_wA8iujI8RmlLUIXoJZVJw');
+      })();
+
+      window.onload = function () {
+        document.getElementById('contactform').addEventListener('submit', function (event) {
+          event.preventDefault();
+          // these IDs from the previous steps
+          emailjs.sendForm('contact_service', 'contact_form', this).then(
+            function () {
+              console.log('SUCCESS!');
+            },
+            function (error) {
+              console.log('FAILED...', error);
+            }
+          );
+        });
+      };
     </script>
 
     <!-- END Scripts -->
