@@ -124,6 +124,10 @@ a:hover {
   src: url(../fonts/Bitter-Bold.otf);
 }
 
+.font-cabin {
+  font-family: 'Cabin';
+}
+
 /* ==============================
    4. Page loader
    ============================== */
@@ -1074,11 +1078,13 @@ header a span {
   background: #2c2a2a;
   border: none;
   height: 80px;
+  color: white;
 }
 
 section.dark textarea {
   background: #2c2a2a;
   border: none;
+  color: white;
 }
 
 .section .jt_row.overlap {
@@ -1183,6 +1189,10 @@ h2.section-title:after {
   font-size: 17px;
   color: #777777;
   margin-bottom: 60px;
+}
+
+.section-subtitle.margin-bottom-info {
+  margin-bottom: 20px;
 }
 
 .subsection-title h3 {
@@ -1711,7 +1721,7 @@ textarea {
   font-size: 1.2em;
   padding: 7px;
   border: 1px solid #cbc8c8;
-  color: #4b4747;
+  color: gray;
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -1762,30 +1772,30 @@ textarea {
 }
 
 .section.dark ::-webkit-input-placeholder {
-  color: #4b4747;
+  color: gray;
   font-weight: 700;
 }
 
 .section.dark :-moz-placeholder {
   /* Firefox 18- */
-  color: #4b4747;
+  color: gray;
   font-weight: 700;
 }
 
 .section.dark ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #4b4747;
+  color: gray;
   font-weight: 700;
 }
 
 .section.dark :-ms-input-placeholder {
-  color: #4b4747;
+  color: gray;
   font-weight: 700;
 }
 
 input,
 textarea {
-  color: #4b4747;
+  color: gray;
 }
 
 /* ==============================
