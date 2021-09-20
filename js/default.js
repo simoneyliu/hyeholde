@@ -13,7 +13,7 @@
     /*Validation*/
     $('#contactform').validate({
       submitHandler: function (form) {
-        $(form).ajaxSubmit();
+        // $(form).ajaxSubmit();
         $(form).find('.formSent').show();
         $(form).find('input[type=text]').val('');
         $(form).find('input[type=email]').val('');
